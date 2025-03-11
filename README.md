@@ -1,70 +1,16 @@
-# Getting Started with Create React App
+# real-time collaborative document editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**COMPANY**: CODTECH IT SOLUTIONS  <br>
+**NAME**: NALLIMILLI SARANYA REDDY  <br>
+**INTERN ID**: CT12NYK  <br>
+**DOMAIN**:: FULL STACK WEB DEVELOPMENT  <br>
+**DURATION**: 8 WEEKS   <br>
+**MENTOR**: NEELA SANTOSH
 
-## Available Scripts
+**DESCRIPTION**:
 
-In the project directory, you can run:
+TASK 3 is REAL-TIME COLLABORATIVE DOCUMENT EDITOR.I built a Real-time collaborative code editor.I have created a real-time collaborative document editor using React.js for a dynamic and responsive user interface, MongoDB for efficient data storage, and Node.js as the backend framework. Download button is also provided , if the user needs to download the file in .txt format.The system allows multiple users to join the same editing session, working collaboratively on a shared document. Using WebSocket communication, I have implemented real-time updates so any changes made by one user are immediately reflected for all other participants in the same room. Routes are handled in the backend using Node.js and Express.js, with API endpoints for creating, retrieving, and managing collaborative sessions. A central MongoDB database stores document data and user activity logs, ensuring that edits are preserved even if users leave and rejoin the session. I have designed the front end in React.js, efficiently handling the application, such as tracking users in a room or managing document content updates in real time. The backend is designed using Node.js, with an event-driven architecture to handle simultaneous requests and WebSocket connections. To ensure simultaneous changes are synchronized across users. The editor will also feature room-based collaboration, where users can create or join rooms identified by unique IDs, and only users within the same room can view and edit the document. Additionally, the interface will include essential text downloading button which will act as option for document saving. Error handling is implemented for monitoring the application. The ultimate goal is to create a robust, scalable, and user-friendly collaborative editing platform that combines real-time functionality, smooth UI interactions, and secure backend services. This real-time collaborative document editor stands out due to its powerful combination of technologies and feature-rich design. The seamless synchronization of edits across multiple users ensures an unparalleled collaborative experience. Real-time updates powered by WebSockets allow every user in the same room to see changes instantly, fostering effective teamwork. The use of React.js provides a highly dynamic and interactive user interface, making the editing process smooth and intuitive. With MongoDB as the database, the application benefits from scalable and flexible data management, ensuring that documents and user activities are reliably stored and accessible. The backend, built with Node.js, guarantees a robust and efficient framework capable of handling concurrent requests and maintaining consistent communication between users. The implementation of room-based collaboration ensures that editing sessions remain private and focused, effectively handle simultaneous edits, preventing conflicts and data loss. I designed TelePresence, a real-time document editor that facilitates seamless collaboration. Built with React.js for a dynamic front end, Node.js for the backend, and MongoDB for scalable data storage, the platform allows multiple users to simultaneously work on a shared document. WebSocket integration ensures instant synchronization of edits across users, while the room-based system allows participants to join and collaborate in a focused, private environment. Additionally, the feature to download documents as .txt files and efficient error handling further enhance the user experience, making it a powerful tool for online teamwork. In conclusion, this project showcases a thoughtful integration of cutting-edge technologies to deliver a modern and efficient collaborative editing solution. React.js powers the responsive front end, MongoDB ensures reliable and scalable data storage, and Node.js with WebSocket communication enables real-time interactions and seamless backend operations. Together, these technologies form the backbone of a feature-rich and user-focused collaborative editing platform. I have named my project as TelePresence.
 
-### `npm start`
+**OUTPUT**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
